@@ -39,11 +39,15 @@ body {
   flex-shrink: 0;
   font-size: 24px;
   padding: 16px;
+  padding-top: 0;
   justify-content: left;
 }
 
 ul{
-  
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  gap: 8px;
   list-style: none;
 }
 
@@ -63,7 +67,6 @@ a{
   flex-shrink: 1;
 }
 .cards{
-  
   display: flex;
   flex-wrap: wrap;
   flex-shrink: 1;
